@@ -1,4 +1,4 @@
-# Proyecto Supermercado
+# :rocket: Proyecto Supermercado
 
 ## :paperclip: Tecnologías utilizadas
 - CSS
@@ -10,4 +10,5 @@
 - Marcos Gallardo
 - Yanira Zepeda
 - Alejandra Contreras
-</br>
+
+#### Bootcamp
