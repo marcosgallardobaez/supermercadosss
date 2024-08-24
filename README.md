@@ -1,6 +1,7 @@
 ## Tecnologías utilizadas
 - CSS
 - HTML
+- JavaScript
 
 ### Integrantes
 - Marcos Gallardo
