@@ -2,6 +2,7 @@
 - CSS
 - HTML
 - JavaScript
+- Visual Studio Code
 
 ### Integrantes
 - Marcos Gallardo
