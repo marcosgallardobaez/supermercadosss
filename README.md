@@ -11,4 +11,3 @@
 - Yanira Zepeda
 - Alejandra Contreras
 </br>
-### Bootcamp Full Stack JavaScript
