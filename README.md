@@ -2,7 +2,7 @@
 - CSS
 - HTML
 
-###Integrantes
+### Integrantes
 - Marcos Gallardo
 - Yanira Zepeda
 - Alejandra Contreras
