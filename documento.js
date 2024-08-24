@@ -58,13 +58,7 @@ $('.formulario').mouseout(function () {
 
 
 
-$('.card-img-top').mouseover(function () {
-  $(this).css('transform', 'scale(1.2)',)
-});
 
-$('.card-img-top').mouseout(function () {
-  $(this).css('transform', 'scale(1)',)
-});
 
 
 
