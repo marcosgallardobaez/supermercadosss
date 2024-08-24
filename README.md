@@ -1,3 +1,5 @@
+# Proyecto Supermercado
+
 ## :paperclip: Tecnologías utilizadas
 - CSS
 - HTML
@@ -8,3 +10,5 @@
 - Marcos Gallardo
 - Yanira Zepeda
 - Alejandra Contreras
+</br>
+#### Bootcamp Full Stack JavaScript
