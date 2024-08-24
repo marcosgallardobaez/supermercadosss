@@ -11,4 +11,4 @@
 - Yanira Zepeda
 - Alejandra Contreras
 
-#### Bootcamp
+#### Bootcamp Full Stack JavaScript - Talento Digital
