@@ -56,6 +56,16 @@ $('.formulario').mouseout(function () {
   $('.formulario').css('background-color', 'greenyellow')
 });
 
+const zoomableImages = document.querySelectorAll('.zoomable');
+zoomableImages.forEach(image => {
+    image.addEventListener('mouseover', function() {
+        image.style.transform = 'scale(2)';
+    });
+ 
+    image.addEventListener('mouseout', function() {
+        image.style.transform = 'scale(1)';
+    });
+});
 
 
 
