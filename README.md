@@ -1,10 +1,10 @@
-## Tecnologías utilizadas
+## :paperclip: Tecnologías utilizadas
 - CSS
 - HTML
 - JavaScript
 - Visual Studio Code
 
-### Integrantes
+### :paperclip: Integrantes
 - Marcos Gallardo
 - Yanira Zepeda
 - Alejandra Contreras
