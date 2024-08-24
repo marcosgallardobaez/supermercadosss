@@ -1,74 +1,170 @@
-
-.cotainer{
-    height: 100vh;
-    margin: 0%;
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  
 }
+
+body{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: gray;
+  background: linear-gradient(to right, #859398, #283048);
+  
+  
+} */
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .navbar {
-    background-color: 
+  background-color:
 }
 
 .container-fluid {
-    background-color: greenyellow;
-    margin:;
-} 
-.texto{
-    background-color: greenyellow;
-    border: solid 1px;
-    border-radius: 10px;
-    padding: 3%;
-    margin: 5%;
+  background-color: greenyellow;
+  margin: ;
+}
+
+
+.carrusel {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.carrusel-in {
+   
+    width: 300% ; //si se agregan más imagenes se le suma 100% por cada una
+    height: 100%;
+    display: flex;
+    
+    
 
 }
 
-.formulario{
-    background-color: greenyellow;
-    border: solid 1px;
-    border-radius: 10px;
-    padding: 3%;
-    margin: 5%;
+.carru-sect {
+    width: calc(100% / 3);
+    height: 100%;
     
+
+}
+
+.carru-sect img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+
+}
+
+.btn-izq, .btn-der {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    box-sizing: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0, -50%);
+    transition: .5s ease;
+    user-select: none;
+}
+
+.btn-izq:hover,
+.btn-der:hover{
+    background-color: #333333d4;
+}
+
+.btn-izq{
+    left: 10px;
+
+}
+
+.btn-der{
+    right: 10px;
+}
+
+
+
+
+.texto {
+  display: block;
+  background-color: greenyellow;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 5%;
+
+}
+
+.formulario {
+  background-color: greenyellow;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 5%;
+
 }
 
 #button {
-    background-color: green;
-    color: white;
-   border-radius: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
 }
 
-.image-container{
-    background-color: greenyellow;
-    text-align: center;
-    border: solid 3px;
-    border-radius: 10px;
-    padding: 3%;
-    margin: 5%;
-    row-gap: 3px;
+.image-container {
+  background-color: greenyellow;
+  text-align: center;
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 3%;
+  margin: 5%;
+  row-gap: 3px;
 }
- 
+
 img {
-    width: 250px;
-    height: 200px;
-    border-radius: 10px;
-    border: solid 3px;
-    
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  border: solid 3px;
+
 }
 
-.zoomed{
-    transform: scale(1.3);
-    transition: transform 0,5s ease;
+.zoomed {
+  transform: scale(1.3);
+  transition: transform 0, 5s ease;
 
 
 }
 
 #principal {
-    min-height: 100vh;
-    background-image: url(https://plus.unsplash.com/premium_photo-1683121938935-118d0a16a469?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+  min-height: 100vh;
+  background-image: url(https://plus.unsplash.com/premium_photo-1683121938935-118d0a16a469?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
-.backgroundform{
-    background-color: orange;
+.backgroundform {
+  background-color: orange;
 }
